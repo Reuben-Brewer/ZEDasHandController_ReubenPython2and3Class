@@ -29,6 +29,8 @@ X axis: Right (to the user's right)
 Y axis: Foward (along camera axes)
 Z: Up (along long/baseline-axis)
 
+It's the same coordinate system for the ZED-mini (held vertically in hand with the USB-C cable pointing downward).
+
 ############################
 The ZED-mini's USB-C cable is very finicky.
 1. The USB-C plug on the camera *only works when the arrows on the cable point towards the camera's blue status-indicator LED*.
