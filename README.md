@@ -1,0 +1,2 @@
+# ZEDasHandController_ReubenPython2and3Class
+Wrapper (including ability to hook to Tkinter GUI) to read 6-DOF pose data from StereoLabs ZED stereo camera (with integrated IMU). This code is intended to allow the ZED camera to be used as a hand-controller where the user grips the ZED (without occluding the cameras). Under the hood, we're calling the ZED API's "Positional Tracking" module, which uses visuoinertial tracking (SLAM + IMU).
