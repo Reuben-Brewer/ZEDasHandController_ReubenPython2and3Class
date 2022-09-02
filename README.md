@@ -35,6 +35,8 @@ Y axis: Foward (along camera axes)
 
 Z: Up (along long/baseline-axis)
 
+It's the same coordinate system for the ZED-mini (held vertically in hand with the USB-C cable pointing downward).
+
 ############################
 
 The ZED-mini's USB-C cable is very finicky.
