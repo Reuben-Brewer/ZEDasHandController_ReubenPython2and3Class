@@ -1,4 +1,4 @@
-########################
+#########################################################
 
 ZEDasHandController_ReubenPython2and3Class
 
@@ -25,6 +25,7 @@ Python 3.8 on Windows 10 64-bit.
 *In Python 2.7, we fail on from scipy.spatial.transform import Rotation .from_matrix*
 
 Functional definition: long/baseline-axis is the line that starts at the left camera and extends to the right camera.
+
 With the user's right hand grasping the ZED2 camera along its long/baseline axis and the tripod mounting hole pointing to the user's right
 (also the long/baseline-axis pointing up):
 
@@ -34,7 +35,7 @@ Y axis: Foward (along camera axes)
 
 Z: Up (along long/baseline-axis)
 
-'''
+############################
 
 The ZED-mini's USB-C cable is very finicky.
 
@@ -50,17 +51,25 @@ For instance, this hub did not work: Anker AK-A7505112 7-Port USB 3.0 Data Hub.
 
 5. The ZED-mini will show up as "ZED-M" under "Cameras" within Window's Device Manager.
 
-'''
+############################
 
-'''
+############################
 
 1.The ZED-2 WILL work when plugged into a USB3.0 hub.
 
-'''
+############################
 
-########################  
+############################
 
-########################### Python module installation instructions, all OS's
+In one instance, the ZED-mini suddenly started giving strange data. Upon examination in "ZED Sensor Viewer", it was obvious that the orientation was flipping 180deg constantly. The following line was issued in a command terminal to recalibrate the IMU and fix the issue:
+
+"C:\Program Files (x86)\ZED SDK\tools\ZED Calibration.exe" --cimu
+
+############################
+
+#########################################################
+
+######################################################### Python module installation instructions, all OS's
 
 ZEDminiAsHandController_ReubenPython2and3Class, ListOfModuleDependencies: ['future.builtins', 'LowPassFilter_ReubenPython2and3Class', 'numpy', 'pyzed.sl', 'scipy.spatial.transform']
 
@@ -70,12 +79,12 @@ ZEDminiAsHandController_ReubenPython2and3Class, ListOfModuleDependencies_NestedL
 
 ZEDminiAsHandController_ReubenPython2and3Class, ListOfModuleDependencies_All: ['future.builtins', 'LowPassFilter_ReubenPython2and3Class', 'MyPlotterPureTkinterStandAloneProcess_ReubenPython2and3Class', 'MyPrint_ReubenPython2and3Class', 'numpy', 'pexpect', 'psutil', 'pyzed.sl', 'scipy.spatial.transform']
 
-###########################
+#########################################################
 
-########################### Library/driver installation instructions, Windows and Ubuntu (ZED doesn't run on Raspberry Pi or Mac)
+######################################################### Library/driver installation instructions, Windows and Ubuntu (ZED doesn't run on Raspberry Pi or Mac)
 
 https://www.stereolabs.com/docs/installation/windows/
 
 https://www.stereolabs.com/docs/installation/linux/
 
-###########################
+#########################################################
