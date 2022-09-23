@@ -55,6 +55,7 @@ The ZED-mini's USB-C cable is very finicky.
 ############################
 
 ############################
+
 In one instance, the ZED-mini suddenly started giving strange data.
 Upon examination in "ZED Sensor Viewer", it was obvious that the orientation was flipping 180deg constantly.
 The following line was issued in a command terminal to recalibrate the IMU and fix the issue:
