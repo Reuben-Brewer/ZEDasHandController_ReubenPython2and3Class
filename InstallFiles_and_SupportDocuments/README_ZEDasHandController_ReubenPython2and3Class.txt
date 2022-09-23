@@ -16,11 +16,10 @@ www.reubotics.com
 
 Apache 2 License
 
-Software Revision D, 08/29/2022
+Software Revision E, 09/21/2022
 
 Verified working on: 
-Python 3.8 on Windows 10 64-bit.
-*In Python 2.7, we fail on from scipy.spatial.transform import Rotation .from_matrix*
+Python 3.8 on Windows 10 64-bit and Ubuntu 20.04.
 
 Functional definition: long/baseline-axis is the line that starts at the left camera and extends to the right camera.
 With the user's right hand grasping the ZED2 camera along its long/baseline axis and the tripod mounting hole pointing to the user's right
@@ -62,6 +61,16 @@ ZEDminiAsHandController_ReubenPython2and3Class, ListOfModuleDependencies: ['futu
 ZEDminiAsHandController_ReubenPython2and3Class, ListOfModuleDependencies_TestProgram: ['MyPlotterPureTkinterStandAloneProcess_ReubenPython2and3Class', 'MyPrint_ReubenPython2and3Class']
 ZEDminiAsHandController_ReubenPython2and3Class, ListOfModuleDependencies_NestedLayers: ['future.builtins', 'numpy', 'pexpect', 'psutil']
 ZEDminiAsHandController_ReubenPython2and3Class, ListOfModuleDependencies_All: ['future.builtins', 'LowPassFilter_ReubenPython2and3Class', 'MyPlotterPureTkinterStandAloneProcess_ReubenPython2and3Class', 'MyPrint_ReubenPython2and3Class', 'numpy', 'pexpect', 'psutil', 'pyzed.sl', 'scipy.spatial.transform']
+
+#### Install pyzed module
+Ubuntu: cd "/usr/local/zed/"
+
+Windows: cd "C:\Program Files (x86)\ZED SDK\"
+#Make sure you have admin access to run it in the Program Files folder, otherwise, you will have a Permission denied error.
+#You can still copy the file into another location to run it without permissions.
+
+python get_python_api.py
+####
 
 #########################################################
 
