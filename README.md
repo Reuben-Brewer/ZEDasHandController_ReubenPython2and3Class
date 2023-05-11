@@ -46,6 +46,7 @@ For instance, this hub did not work: Anker AK-A7505112 7-Port USB 3.0 Data Hub.
 3. The shorter stock cable that came with the ZED-mini worked when plugged directly into the USB-3.0 port of a laptop, but the longer stock cable did NOT.
 4. The shorter stock cable worked WITH a 6ft USB3.0 extension cable (brand unknown), plugged directly into a laptop's USB 3.0 port.
 5. The ZED-mini will show up as "ZED-M" under "Cameras" within Window's Device Manager.
+
 ############################
 
 ############################
