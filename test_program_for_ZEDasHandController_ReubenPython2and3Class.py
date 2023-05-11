@@ -6,7 +6,7 @@ reuben.brewer@gmail.com
 www.reubotics.com
 
 Apache 2 License
-Software Revision E, 09/21/2022
+Software Revision F, 05/10/2023
 
 Verified working on: Python 3.8 for Windows 10 64-bit and Ubuntu 20.04.
 '''
@@ -713,13 +713,14 @@ if __name__ == '__main__':
     global ZEDasHandController_ReubenPython2and3ClassObject_setup_dict
     ZEDasHandController_ReubenPython2and3ClassObject_setup_dict = dict([("GUIparametersDict", ZEDasHandController_ReubenPython2and3ClassObject_GUIparametersDict),
                                                                 ("NameToDisplay_UserSet", "Reuben's ZEDasHandController_ReubenPython2and3Class Test"),
-                                                                ("MainThread_TimeToSleepEachLoop", 0.001),
+                                                                ("MainThread_TimeToSleepEachLoop", 1.0/60),
                                                                 ("Position_ExponentialFilterLambda", 0.9),
                                                                 ("Rotation_ExponentialFilterLambda", 0.9),
                                                                 ("DataCollectionDurationInSecondsForZeroing", 1.0),
                                                                 ("ZEDcoordinateSystem", "RIGHT_HANDED_Z_UP"),
-                                                                ("ZEDresolution", "HD720"),
-                                                                ("ZEDfps", 60)])
+                                                                ("ZEDresolution", "VGA"), #HD720 for ZEDmini
+                                                                ("ZEDfps", 30), #60 for ZEDmini
+                                                                ("NumberOfFramesForRotationInitialization", 5)])
 
     # NOTE: Positional tracking uses image and depth information to estimate the position of the camera in 3D space.
     # To improve tracking results, use high FPS video modes such as HD720 and WVGA.

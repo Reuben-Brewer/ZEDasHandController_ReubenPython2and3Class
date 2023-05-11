@@ -16,7 +16,7 @@ www.reubotics.com
 
 Apache 2 License
 
-Software Revision E, 09/21/2022
+Software Revision F, 05/10/2023
 
 Verified working on: 
 Python 3.8 on Windows 10 64-bit and Ubuntu 20.04.
@@ -56,11 +56,10 @@ The following line was issued in a command terminal to recalibrate the IMU and f
 #########################################################
 
 ######################################################### Python module installation instructions, all OS's
-
-ZEDminiAsHandController_ReubenPython2and3Class, ListOfModuleDependencies: ['future.builtins', 'LowPassFilter_ReubenPython2and3Class', 'numpy', 'pyzed.sl', 'scipy.spatial.transform']
-ZEDminiAsHandController_ReubenPython2and3Class, ListOfModuleDependencies_TestProgram: ['MyPlotterPureTkinterStandAloneProcess_ReubenPython2and3Class', 'MyPrint_ReubenPython2and3Class']
-ZEDminiAsHandController_ReubenPython2and3Class, ListOfModuleDependencies_NestedLayers: ['future.builtins', 'numpy', 'pexpect', 'psutil']
-ZEDminiAsHandController_ReubenPython2and3Class, ListOfModuleDependencies_All: ['future.builtins', 'LowPassFilter_ReubenPython2and3Class', 'MyPlotterPureTkinterStandAloneProcess_ReubenPython2and3Class', 'MyPrint_ReubenPython2and3Class', 'numpy', 'pexpect', 'psutil', 'pyzed.sl', 'scipy.spatial.transform']
+ZEDasHandController_ReubenPython2and3Class, ListOfModuleDependencies: ['future.builtins', 'LowPassFilter_ReubenPython2and3Class', 'numpy', 'pyzed.sl']
+ZEDasHandController_ReubenPython2and3Class, ListOfModuleDependencies_TestProgram: ['MyPlotterPureTkinterStandAloneProcess_ReubenPython2and3Class', 'MyPrint_ReubenPython2and3Class']
+ZEDasHandController_ReubenPython2and3Class, ListOfModuleDependencies_NestedLayers: ['future.builtins', 'numpy', 'pexpect', 'psutil']
+ZEDasHandController_ReubenPython2and3Class, ListOfModuleDependencies_All:['future.builtins', 'LowPassFilter_ReubenPython2and3Class', 'MyPlotterPureTkinterStandAloneProcess_ReubenPython2and3Class', 'MyPrint_ReubenPython2and3Class', 'numpy', 'pexpect', 'psutil', 'pyzed.sl']
 
 #### Install pyzed module
 Ubuntu: cd "/usr/local/zed/"
